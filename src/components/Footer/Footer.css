@@ -5,9 +5,6 @@
     background: var(--black-color);
     padding: 2rem;
     color: var(--white-color);
-    border-top: 1px solid var(--grey-color);
-    grid-template-columns: repeat (16, [col-start] 1fr);
-    grid-template-rows: 250px auto
 }
 
 .footerTop{
