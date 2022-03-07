@@ -3,7 +3,6 @@ import '../../App.css';
 import Hamburger from '../Hamburger/Hamburger';
 import React from 'react';
 
-
 export default function Header () {
     
     return(
@@ -15,11 +14,13 @@ export default function Header () {
             <div className="desktopDisplay">
                 <a href="#" className="mobileLogo"><img src={logo} alt="Logo" /></a>
                 <ul className="navItems">
-                    <li className="navList"><a href="../../pages/About" className="navLink">About</a></li>
-                    <li className="navList"><a href="../../pages/Services" className="navLink">Services</a></li>
-                    <li className="navList"><a href="../../pages/Project" className="navLink">Projects</a></li>
+                    <li className="navList"><a href="#" className="navLink">About</a></li>
+                    <li className="navList"><a href="#" className="navLink">Services</a></li>
+                    <li className="navList"><a href="#" className="navLink">Projects</a></li>
                 </ul>
-                <div className="navRight"><a href="../../pages/Contact" className="navLink">Contact</a></div>
+                <div className="navRight"><a href="#" className="navLink">Contact</a></div>
+
+                
             </div>
         </header>
     )
