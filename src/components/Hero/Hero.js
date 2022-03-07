@@ -6,7 +6,7 @@ export default function HeroSection () {
         <section className="heroSection">
             <div className="bigHeroText">
                 <h1 className="left">Building</h1>
-                <h1 className="right">Bloque</h1>
+                <h1 className="right">Bloques</h1>
             </div>
             <div className="smallHeroText">
                 <h4>We are a team of versatile creatives, handcrafting best in class products,
