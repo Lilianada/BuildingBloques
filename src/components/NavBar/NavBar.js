@@ -20,7 +20,7 @@ export default function Header () {
                 </ul>
                 <div className="navRight"><a href="#" className="navLink">Contact</a></div>
 
-                
+                 
             </div>
         </header>
     )
